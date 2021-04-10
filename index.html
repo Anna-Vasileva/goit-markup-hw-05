@@ -74,11 +74,25 @@
         <div class="hero-bg">
           <div class="container">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button">Заказать услугу</button>
+            <button type="button" class="button" data-modal-open>
+              Заказать услугу
+            </button>
           </div>
         </div>
       </section>
       <!-- /HERO -->
+
+      <!-- MODAL-WINDOW -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" class="close" data-modal-close>
+            <svg class="icon-close" width="18" height="18">
+              <use href="./images/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- /MODAL-WINDOW -->
 
       <!-- QUALITY -->
       <section class="quality section">
@@ -469,5 +483,6 @@
       </div>
     </footer>
     <!-- /FOOTER -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
