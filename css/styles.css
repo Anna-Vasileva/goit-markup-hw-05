@@ -70,11 +70,6 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.transition-button {
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 /* /Переход css */
 
@@ -244,6 +239,10 @@ p {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: var(--bg-btn-hover);
@@ -417,6 +416,15 @@ p {
   fill: var(--social-networks);
   background-color: var(--primary-white-color);
   /* background-color: red; */
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team .team-icon {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-link:hover,
 .team-link:focus {
@@ -435,6 +443,9 @@ p {
 }
 .clients .clients-icon {
   fill: var(--social-networks);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
@@ -449,6 +460,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -516,6 +531,10 @@ p {
 .basement .basement-link {
   fill: var(--primary-white-color);
   background-color: var(--social-networks-footer);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .basement-link:hover,
 .basement-link:focus {
