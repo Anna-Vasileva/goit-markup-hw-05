@@ -655,6 +655,7 @@ p {
   left: 0;
 
   background-color: var(--accent-color);
+  opacity: 0.9;
 
   transform: translateY(100%);
   transition-property: transform;
